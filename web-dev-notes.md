@@ -3,6 +3,13 @@
 ## Bulma
 - `mr-2` is margin-right 2
 
+## General
+- add `debugger;` in code to debug with inspect element
+
+## Metamask
+- when connecting metamask ganache, use id 1337. Lowercase http. currency:
+  `eth`. 
+- `npm install @metamask/detect-provider`
 
 ## Webpack issue with web3
 - https://github.com/ChainSafe/web3.js#web3-and-create-react-app
