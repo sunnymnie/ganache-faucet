@@ -6,6 +6,12 @@
 ## Basics
 - `accounts` lists out the accounts (in ganache)
 
+## Later
+- in `truffle-config.js`, add `contracts_build_directory: "./public/contracts",`
+- if above is already compiled to build/contracts, just delete them and run
+  `truffle compile`
+- `npm i @truffle/contract` for load-contract.js
+
 
 ## Web3
 ### Send transaction

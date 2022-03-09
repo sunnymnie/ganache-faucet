@@ -48,3 +48,4 @@ module.exports = function override(config) {
     "eject": "react-scripts eject"
 },
 ```
+- may need `path-browserify`, make sure to use --save-dev 

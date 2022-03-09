@@ -12,7 +12,7 @@ contract Faucet is Owned {
 
     modifier limitWithdraw(uint256 withdrawAmount) {
         require(
-            withdrawAmount < 100000000000000000,
+            withdrawAmount <= 100000000000000000,
             "Cannot withdraw more than 0.1 ether"
         );
         _;
